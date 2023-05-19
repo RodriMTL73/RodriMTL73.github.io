@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP INTEGRADOR</title>
+    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">          
+          <img src="./img/codoacodo.png" height="60">
+          <a class="navbar-brand" href="#">Conf Bs As</a>        
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#">La conferencia
+                  <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-link" href="#">Los oradores</a>
+                <a class="nav-link" href="#">El lugar y la fecha</a>
+                <a class="nav-link" href="#">Conviertete en orador</a>
+                <a class="nav-link text-success" href="#">Comprar tickets</a>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <!-- Carrusel -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-caption d-none d-md-block" style="align-items: center;">
+                        <div style="text-align: right;">
+                          <h5 >Conf Bs As</h5>
+                          <p>Bs.As llega por primera vez a Argentina. Un evento para compartir con
+                            <br>nuestra comunidad el conocimiento y experiencia de los expertos que
+                            <br>están creando el futuro de internet.Ven a conocer a los miembros del
+                            <br>evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel
+                            <br>que tenemos para ti. Te esperamos!
+                          </p>
+                          <span class="  badge bg-transparent text-white border w-20 p-2">Quiero ser orador</span>
+                          <span class=" badge badge-success ml-2 w-20 p-2">Comprar tickets</span>
+                        </div>
+                          
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="./img/ba1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/ba2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/ba3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </button>
+                  </div>
+            </article>
+            <article>
+                <div class="container">
+                  <p class="text-center">CONOCÉ A LOS</p>
+                  <h1 class="text-center">ORADORES</h1>
+                </div>
+                <!--  card bootstrap sin js -->
+                <div id="card-conteiner" class="card-conteiner">
+                  <div class="card-orador" style="width: 18rem;">
+                    <img src="./img/steve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2>Title</h2>
+                        <span class="badge badge-warning">Warning</span>
+                        <span class="badge badge-info">Info</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem pariatur obcaecati autem eum est quibusdam, quisquam placeat, omnis nihil dicta quis perspiciatis debitis tempora odit mollitia iste neque laudantium atque.</p>
+                    </div>
+                </div>
+                <div class="card-orador" style="width: 18rem;">
+                    <img src="./img/bill.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2>Title</h2>
+                        <span class="badge badge-warning">Warning</span>
+                        <span class="badge badge-info">Info</span>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aut numquam similique dolor culpa incidunt dolore autem. Necessitatibus quidem ipsam, laboriosam nesciunt nulla odit libero aperiam harum inventore totam beatae?</p>
+                    </div>
+                </div>
+                <div class="card-orador" style="width: 18rem;">
+                    <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2>Title</h2>
+                        <span class="badge badge-secondary">Secondary</span>
+                        <span class="badge badge-danger">Danger</span>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores maiores ipsum quia aliquam, quibusdam alias iure beatae laborum delectus eum. Excepturi itaque expedita laudantium blanditiis provident impedit soluta error mollitia?</p>
+                    </div>
+                </div>
+                </div>
+            </article>
+            <article>
+                <div class="row"> 
+                  <div style="margin-bottom: 15px;">
+                  <div class="row no-gutters">
+                    <div class="col-sm border">
+                      <img src="./img/honolulu.jpg" alt="..." style="width: 100%; vertical-align: middle;">
+                    </div>
+                    <div id="bsasOctubre" class="col-sm border bg-dark">
+                      <h1 class="display-4" style="font-size: 30px;">Bs As - Octubre</h1>
+                      <p class="lead" style="font-size: 15px; align-items: start;">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).</p>
+                      <a class="btn btn-primary btn-lg" href="#" role="button" style="border: 1px solid white; background-color: transparent;">Conocé más</a>
+                    </div>
+                  </div>                 
+                </div>  
+                </div>
+            </article>
+            <article>
+              <div class="container">
+                <p class="text-center text-uppercase">Conviertete en un</p>
+                <h1 class="text-center">ORADOR</h1>
+                <p class="text-center">Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de qué quieres hablar!</p>
+               <!-- form bootstrap -->
+                  <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">                        
+                        <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-3">                        
+                        <input type="text" class="form-control" id="validationCustom02" value="Apellido" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Sobre qué quieres hablar?</textarea>
+                      <label for="exampleFormControlTextarea1">Recuerda incluir un título para tu charla</label>
+                      <button type="button" class="btn btn-lg btn-block" style="color: white;  background-color: #81c53d">Enviar</button>
+                    </div>
+                  </form>
+              </div>
+                               
+                  <script>
+                  // Example starter JavaScript for disabling form submissions if there are invalid fields
+                  (function() {
+                    'use strict';
+                    window.addEventListener('load', function() {
+                      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                      var forms = document.getElementsByClassName('needs-validation');
+                      // Loop over them and prevent submission
+                      var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      });
+                    }, false);
+                  })();
+                  </script>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <!-- Navbar footer -->
+        <nav id="navFooter"  class="navbar navbar-expand-lg">
+          <div class="container">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Preguntas<br>frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contáctanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Prensa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conferencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Términos y<br>condiciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Privacidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Estudiantes</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <p>hola</p>
+    </footer>
+    <script src="./bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
