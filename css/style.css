@@ -1,0 +1,47 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.card-conteiner{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}    
+.row{
+    display: flexbox;
+}
+
+#navFooter {  
+    width: 100%;
+    background: linear-gradient(to right, #1c3643, #1d5271);
+}
+#navFooter .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 50px;
+    
+}
+#navFooter .navbar-nav{
+    
+    align-items: center;
+    
+}
+#navFooter .nav-link{
+   
+    color: white;
+}
+#bsasOctubre{
+    color: white;
+    
+}
+
+.display-4{
+    font-weight: 400;
+}
